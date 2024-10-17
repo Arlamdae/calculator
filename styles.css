@@ -1,1 +1,21 @@
 /* this line is a comment */
+.body {
+    border: solid black 1px;
+    background-color: black;
+    weight: 150px;
+    height: 270px;
+    display: flexbox;
+
+}
+
+.number {
+    border: solid black 2px;
+    background-color: blanchedalmond;
+    
+}
+
+.sym {
+    border: solid black 2px;
+    background-color: yellow;
+    align-self: center;
+}
