@@ -2,7 +2,7 @@
 .body {
     border: solid black 1px;
     background-color: black;
-    weight: 150px;
+    width: 150px;
     height: 270px;
     display: flexbox;
 
