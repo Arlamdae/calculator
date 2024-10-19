@@ -12,23 +12,25 @@
             <textarea name="result" id="result"></textarea>
         </div>
         <div class="numbers">
-            <button class="number">0</button>
-            <button class="number">1</button>
-            <button class="number">2</button>
-            <button class="number">3</button>
-            <button class="number">4</button>
-            <button class="number">5</button>
-            <button class="number">6</button>
-            <button class="number">7</button>
-            <button class="number">8</button>
-            <button class="number">9</button>
+            <button id="number" onclick="appendToDisplay('0')">0</button>
+            <button id="number" onclick="appendToDisplay('1')">1</button>
+            <button id="number" onclick="appendToDisplay('2')">2</button>
+            <button id="number" onclick="appendToDisplay('3')">3</button>
+            <button id="number" onclick="appendToDisplay('4')">4</button>
+            <button id="number" onclick="appendToDisplay('5')">5</button>
+            <button id="number" onclick="appendToDisplay('6')">6</button>
+            <button id="number" onclick="appendToDisplay('7')">7</button>
+            <button id="number" onclick="appendToDisplay('8')">8</button>
+            <button id="number" onclick="appendToDisplay('9')">9</button>
+            <button id="number" onclick="appendToDisplay('.')">.</button>
         </div>
         <div class="symbols">
-            <button class="sym">+</button>
-            <button class="sym">-</button>
-            <button class="sym">*</button>
-            <button class="sym">/</button>
-            <button class="sym">=</button>
+            <button id="sym" onclick="appendToDisplay('+')">+</button>
+            <button id="sym" onclick="appendToDisplay('-')">-</button>
+            <button id="sym" onclick="appendToDisplay('*')">*</button>
+            <button id="sym" onclick="appendToDisplay('/')">/</button>
+            <button id="sym" onclick="appendToDisplay('=')">=</button>
+            <button id="sym" onclick="appendToDisplay('C')">C</button>
         </div>
     </div>
 </body>
