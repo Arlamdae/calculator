@@ -1,26 +1,35 @@
 /* this line is a comment */
+
 .body {
     border: solid black 1px;
+    border-radius: 17px;
     background-color: black;
-    width: 150px;
-    height: 270px;
-    display: flexbox;
+    width: 285px;
+    height: 450px;
+    display: grid;
+    padding-left: 15px;
+    padding-top: 17px;
+}
+
+textarea {
+    resize: none;
+    margin: auto;
+    width: 90%;
+    height: 70px;
+    border: solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 button {
-    width: 100px;
-    height: 100px;
+    gap: 2px;
+    width: 60px;
+    height: 60px;
     border-radius: 50px;
     border: none;
+    margin: 2px;
 }
 
-.number {
-    border: solid black 2px;
-    background-color: blanchedalmond;
-    }
-
-.sym {
-    border: solid black 2px;
-    background-color: yellow;
-    align-self: center;
+#sym {
+    background-color: rgba(243, 243, 8, 0.932);
 }
